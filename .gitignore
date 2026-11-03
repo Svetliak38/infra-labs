@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Секреты и локальные данные — НИКОГДА не коммитить
+servers.txt
+proxies*.txt
+*_recovery.txt
+*.env
+.env
+*.pem
+*.key
+*.pfx
+id_rsa*
+
+# Логи и отчёты прогонов
+*.log
+logs/
+
+# Временные файлы Windows
+Thumbs.db
+desktop.ini
+~$*
+
+# Личные заметки
+notes/
+*.local.md
